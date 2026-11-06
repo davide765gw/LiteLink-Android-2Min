@@ -1,0 +1,19 @@
+LITELINK - PROJETO ANDROID (LINKS CONFIGURADOS)
+
+TikTok: https://www.tiktok.com/d/4/ZS9fJfFUMvjER-JkCEM/
+Play Store: https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically.go
+
+Este ZIP contem CODIGO-FONTE, e nao um APK instalavel.
+
+Para gerar o APK:
+1. Extraia os arquivos deste ZIP.
+2. Envie os arquivos e pastas para a raiz de um repositorio GitHub.
+3. Abra Actions > Gerar APK > Run workflow.
+4. Depois da execucao, baixe o artefato LiteLink-APK.
+5. Extraia o APK do artefato e instale no Android.
+
+Para publicar um site de instalacao, copie site/index.html e
+app-debug.apk para a mesma pasta, renomeando app-debug.apk para LiteLink.apk.
+
+O Android pode impedir a abertura automatica de aplicativos a partir
+do segundo plano, e os alarmes podem ser adiados. Nao e garantido.

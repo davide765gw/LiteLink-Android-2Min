@@ -1,0 +1,28 @@
+PROJETO ANDROID + SITE
+
+Não há um APK pré-compilado neste ZIP. O projeto pode ser aberto no Android Studio e compilado via Build > Build APK(s).
+
+ALTERNATIVA GITHUB
+1. Crie um repositório GitHub e envie OS ARQUIVOS E PASTAS DESCOMPACTADOS desta pasta para a raiz, preservando .github/workflows/build-apk.yml.
+2. Na aba Actions, execute "Gerar APK" (ou faça push em main).
+3. Baixe o artefato LiteLink-APK na execução e extraia app-debug.apk.
+4. Renomeie app-debug.apk para LiteLink.apk e coloque ao lado de site/index.html.
+5. Publique o conteúdo da pasta site em GitHub Pages ou Cloudflare Pages. Clique no botão para baixar e instalar o APK.
+
+COMPORTAMENTO
+- Ativação manual na primeira utilização com botão claro e opção Parar rotina.
+- Teste manual para abrir link TikTok Lite, ou loja se ausente.
+- Tentativa periódica em ~30 minutos (Android pode atrasar ou bloquear o lançamento de tela em segundo plano).
+- Sem notificações do aplicativo.
+- A instalação Android exige confirmação do usuário. O site não instala sozinho.
+- O link do evento é preenchido no app. Caso vazio, abre a tela inicial do TikTok Lite.
+
+Este projeto não garante abertura em segundo plano em Android recente ou sob otimização de bateria.
+
+LINKS PRECONFIGURADOS
+TikTok: https://www.tiktok.com/d/4/ZS9fJfFUMvjER-JkCEM/
+Play Store: https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically.go
+
+
+ATUALIZACAO 2 MINUTOS (06/11/2026)
+Intervalo solicitado: 2 minutos (120 segundos). Em Android com Doze/restricoes de inicio em segundo plano, o alarme pode atrasar e a abertura automatica pode nao acontecer. O app deve ser ativado pelo usuario. Esta versao nao inclui configuracao remota de intervalo.

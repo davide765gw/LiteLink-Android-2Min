@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'br.com.litelink'
+    compileSdk 35
+    defaultConfig { applicationId 'br.com.litelink'; minSdk 23; targetSdk 28; versionCode 1; versionName '1.0' }
+}
